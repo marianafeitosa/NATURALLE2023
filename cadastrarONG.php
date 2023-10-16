@@ -133,7 +133,7 @@
     <div class="container">
 
       <a href="#" class="logo">
-        <img src="assets/images/LogoBrancaNaturalle.png" width="200" height="50" alt="Grilli - Home">
+        <img src="LOGOPROJETO.svg" width="120" height="50" alt="Grilli - Home">
       </a>
 
       <nav class="navbar" data-navbar>

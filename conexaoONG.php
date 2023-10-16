@@ -1,11 +1,4 @@
 <?php
-// Função para validar e limpar dados
-function validarDado($dado) {
-    $dado = trim($dado);
-    $dado = stripslashes($dado);
-    $dado = htmlspecialchars($dado);
-    return $dado;
-}
 
 $nome = validarDado($_POST['nomeONG']);
 $email = validarDado($_POST['email']);
@@ -18,17 +11,6 @@ $estado = validarDado($_POST['estado']);
 $cnpj = validarDado($_POST['cnpj']);
 $tipo_ong = validarDado($_POST['tipo_ong']);
 $observacoes = validarDado($_POST['observacoes']);
-
-// Validações adicionais (exemplos)
-if (empty($nome) || empty($email) || empty($telefone) || empty($cep) || empty($rua) || empty($bairro) || empty($cidade) || empty($estado) || empty($cnpj) || empty($tipo_ong) || empty($observacoes)) {
-    echo "Por favor, preencha todos os campos obrigatórios.";
-    exit();
-}
-
-if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    echo "Por favor, insira um endereço de e-mail válido.";
-    exit();
-}
 
 // Definindo banco de dados, localhost 
 
@@ -56,4 +38,28 @@ try {
 } catch (PDOException $e) {
     echo "Erro de conexão com o banco de dados: " . $e->getMessage();
 }
+
+// Função para validar e limpar dados
+function validarDado($dado) {
+    $dado = trim($dado);
+    $dado = stripslashes($dado);
+    $dado = htmlspecialchars($dado);
+    return $dado;
+}
+
+
+
+// Validações adicionais (exemplos)
+if (empty($nome) || empty($email) || empty($telefone) || empty($cep) || empty($rua) || empty($bairro) || empty($cidade) || empty($estado) || empty($cnpj) || empty($tipo_ong) || empty($observacoes)) {
+    echo "Por favor, preencha todos os campos obrigatórios.";
+    exit();
+}
+
+if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    echo "Por favor, insira um endereço de e-mail válido.";
+    exit();
+}
+
+
+
 ?>

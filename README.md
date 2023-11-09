@@ -1,11 +1,11 @@
 # Naturalle2023
 DOCUMENTO NATURALLE - IBM
  
-PARA QUE SERVE?
+#PARA QUE SERVE?
  
 Este site é um projeto para fins escolares da Etec/P-tech do ensino médio(primeiro e segundo ano), para a apresentação na Feira Tecnologia e para a IBM, com o objetivo de melhorar o desenvolvimento e aperfeiçoamento do curso dos alunos(as) de Desenvolvimento de Sistemas.
  
-QUEM SOMOS?
+#QUEM SOMOS?
  
 Somos alunas do 2º ano de Desenvolvimento de Sistemas da ETEC Zona Leste, buscando criar um projeto chamado SABOR SOLIDÁRIO dedicado a unir o sabor da comida vegana com a missão de ajudar pessoas necessitadas. Através da parceria do nosso Restaurante Naturalle , estaremos transformando as refeições em um ato de solidariedade.
  

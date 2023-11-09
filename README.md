@@ -27,9 +27,13 @@ TECNOLOGIAS UTILIZADAS:
 Para a programação do site utilizamos:
  
 • HTML (Linguagem de Marcação de HiperTexto)
+
 • CSS (Folha de Estilo em Cascata)
+
 • JS ( Linguagem de programação JavaScript)
+
 • PHP (Pré-Processador de Hipertexto)
+
 • DataBase (Banco de dados em SQL - Structured Query Language)
  
  

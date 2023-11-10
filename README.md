@@ -7,7 +7,7 @@ Este site é um projeto para fins escolares da Etec/P-tech do ensino médio(prim
  
 # QUEM SOMOS?
  
-Somos alunas do 2º ano de Desenvolvimento de Sistemas da ETEC Zona Leste, buscando criar um projeto chamado SABOR SOLIDÁRIO dedicado a unir o sabor da comida vegana com a missão de ajudar pessoas necessitadas. Através da parceria do nosso Restaurante Naturalle , estaremos transformando as refeições em um ato de solidariedade.
+Somos alunas do 2º ano de Desenvolvimento de Sistemas da ETEC Zona Leste, buscando criar um projeto chamado SABOR SOLIDÁRIO dedicado a unir o sabor da comida vegana com a missão de ajudar pessoas necessitadas. Através do nosso Restaurante Naturalle , estaremos transformando as refeições em um ato de solidariedade.
  
 # PROPÓSITO:
  
@@ -15,11 +15,11 @@ O restaurante vegano e vegetariano inclui um projeto socioambiental, que oferece
  
 # DIFERENCIAL:
  
-O nosso site torna a vida das pessoas mais fácil e prática, pois o usuário poderá fazer tudo que faz presencialmente online facilitando a comunicação e acesso ao site. Além disso o nosso site conta com um projeto socioambiental ( Sabor Solidário) que visa ajudar pessoas em estado de vulnerabilidade.
+O nosso site torna a vida das pessoas mais fácil e prática, pois o usuário poderá fazer tudo que faz presencialmente online facilitando a comunicação e acesso ao site. Além disso o nosso site conta com um projeto socioambiental (Sabor Solidário) que visa ajudar pessoas em estado de vulnerabilidade.
  
 # PÚBLICO ALVO:
  
-O público Alvo de NATURALLE é a comunidade vegana e vegetaria, porém qualquer outra pessoa que não faça parte dessas comunidades podem participar e frequentá-la, pois NATURALLE é um restaurante para todos.
+O público Alvo da NATURALLE é a comunidade vegana e vegetaria, porém qualquer outra pessoa que não faça parte dessas comunidades podem participar e frequentá-la, pois a NATURALLE é um restaurante para todos.
  
  
 # TECNOLOGIAS UTILIZADAS:

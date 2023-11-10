@@ -168,3 +168,34 @@ window.addEventListener("mousemove", function (event) {
   }
 
 });
+
+function isUserLoggedIn() {
+  // Exemplo: verificar se o usuário possui um token de autenticação válido
+  // Retorna true se o usuário estiver logado, false caso contrário
+  return false; // Substitua por sua lógica real
+}
+
+// Elementos de botão de login e logout
+const loginButton = document.getElementById('login-btn');
+const logoutButton = document.getElementById('logout-btn');
+
+// Verifica o estado de login ao carregar a página
+if (isUserLoggedIn()) {
+  // Usuário está logado, esconde o botão de login e mostra o botão de logout
+  loginButton.style.display = 'none';
+  logoutButton.style.display = 'inline-block';
+} else {
+  // Usuário não está logado, mostra o botão de login e esconde o botão de logout
+  loginButton.style.display = 'inline-block';
+  logoutButton.style.display = 'none';
+}
+
+// Adiciona um evento de clique ao botão de logout
+logoutButton.addEventListener('click', function () {
+  // Coloque aqui a lógica para fazer logout do usuário
+  // Por exemplo, limpar os cookies, tokens, etc.
+  
+  // Após o logout, atualize a exibição dos botões
+  loginButton.style.display = 'inline-block';
+  logoutButton.style.display = 'none';
+});

@@ -68,7 +68,7 @@
         </div>
 
         <span class="span">
-          Restaurant Naturalle, São Paulo 123
+          Restaurante Naturalle, São Paulo 123
         </span>
       </address>
 
@@ -140,7 +140,7 @@
             <a href="#Menu" class="navbar-link hover-underline">
               <div class="separator"></div>
 
-              <span class="span">Ongs Parceiras</span>
+              <span class="span">Como Funciona</span>
             </a>
           </li>
 
@@ -148,23 +148,23 @@
             <a href="#about" class="navbar-link hover-underline">
               <div class="separator"></div>
 
-              <span class="span">Como funciona</span>
-            </a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="#" class="navbar-link hover-underline">
-              <div class="separator"></div>
-
               <span class="span">Nossa Historia</span>
             </a>
           </li>
 
           <li class="navbar-item">
-            <a href="delivery.php" class="navbar-link hover-underline">
+            <a href="ongs.php" class="navbar-link hover-underline">
               <div class="separator"></div>
 
-              <span class="span">Delivery</span>
+              <span class="span">Ongs Cadastradas</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.php" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Restaurante</span>
             </a>
           </li>
 
@@ -174,7 +174,7 @@
           <p class="headline-1 navbar-title"></p>
 
           <address class="body-4">
-            Restaurant Naturalle, São Paulo 123
+            Restaurante Naturalle, São Paulo 123
             <br>
           </address>
 
@@ -213,18 +213,34 @@
       <!-- 
         - FOTO HOME
       -->
-
-      <section class="section testi text-center has-bg-image"
-        style="background-image: url('./assets/imagesprojeto/HOMEPROJETOATUALIZADO.png')" aria-label="testimonials">
+      <section class="hero" id="home">
         <div class="container">
 
-          
-          </div>
+          <p class="section-subtitle">
+            <img src="./assets/images/subtitle-img-white.png" width="32" height="7" alt="Wavy line">
 
-  
+            <span>Sabor Solidário</span>
+          </p>
+
+          <h2 class="h2 hero-title">
+          Alimentando corações <strong>uma marmita de cada vez</strong>
+          </h2>
+
+          <p class="hero-text">
+           Junte-se a nós no Projeto Sabor Solidário e ajude a criar um mundo mais justo e nutritivo para todos.
+          </p>
+
+          <button class="btn btn-primary">
+            <span>DOE AGORA</span>
+            
+
+            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+          </button>
 
         </div>
       </section>
+
+      
 
       <br>
       <br>
@@ -234,9 +250,10 @@
 
 
       <section class="special-dish text-center" aria-labelledby="dish-label">
+        
 
         <div class="special-dish-banner">
-          <img src="./assets/images/Voluntario.jpeg" width="940" height="900" loading="lazy" alt="special dish"
+          <img src="./assets/images/Voluntario.jpg" width="940" height="900" loading="lazy" alt="special dish"
             class="img-cover">
         </div>
 
@@ -374,7 +391,7 @@
         <div class="container">
 
           <div class="cta-content">
-            <h2 class="h2 section-title">O projeto 'Sabor solidário' ja ajudou mais de 100 familias e pessoas em estado de vulnerabilidade</h2>
+            <h2 class="h2 section-title">O Projeto 'Sabor Solidário' já ajudou mais de 100 famílias e pessoas em estado de vulnerabilidade</h2>
             
             </button>
           </div>
@@ -388,34 +405,97 @@
       </section>
       <section class="testi">
 
-      <div class="testi-content">
+        <div class="testi-content">
 
-          <span>Como participar do projeto?</span>
-        </p>
+          <p class="section-subtitle">
+            <img src="./assets/images/subtitle-img-green.png" width="32" height="7" alt="Wavy line">
 
-        <h2 class="h2 section-title">
-          Se você for uma <strong>ONG</strong>
-        </h2>
+            <span>Como Participar do projeto?</span>
+          </p>
 
-        <div class="testi-card">
+          <h2 class="h2 section-title">
+            Para participar do Projeto<strong>Sabor Solidário</strong>
+          </h2>
+          <h3 class="testi-name">Sendo Cliente</h3>
 
-          <div>
-            <blockquote class="testi-text">
-              Se você representa uma ONG, terá a oportunidade de acessar o formulário de cadastro ao clicar no botão "CADASTRAR ONG". Este formulário conterá todas as informações necessárias para orientação e registro da sua organização, facilitando o processo de inscrição e fornecendo as diretrizes essenciais.
-            </blockquote>
+          <p class="testi-title"> É simples participar do nosso projeto. Basta comprar uma refeição em nosso restaurante, e automaticamente uma marmita será adicionada ao seu carrinho de compras. Essa marmita não é apenas uma refeição adicional para você; é também uma forma de ajudar aqueles que mais precisam.</p>
+           <br>
+            
+                <h3 class="testi-name">Sendo Ong</h3>
+
+<p class="testi-title"> O processo de inscrição é simples e rápido. Basta preencher um formulário online com informações sobre a sua organização, sua missão e como você planeja utilizar as marmitas doadas. Quando um cliente comprar uma refeição em nosso restaurante e optar por doar uma marmita, você será automaticamente selecionado como uma das ONGs beneficiárias. Receberá as marmitas doadas de acordo com as escolhas dos clientes.</p>
+<div class="testi-card">
+
+            <figure class="card-avatar">
+            </figure>
+
+            <div>
+              <blockquote class="testi-text">
+               
+              </blockquote>
+
+    
+            </div>
+
           </div>
-        
 
         </div>
 
-      </div>
+        <figure class="testi-banner">
+          <img src="./assets/images/Ong.jpg" width="960" height="846" loading="lazy" alt="Rhinoceros"
+            class="img-cover">
+        </figure>
 
-      <figure class="testi-banner">
-        <img src="./assets/images/Ong.jpeg" width="960" height="846" loading="lazy" alt="Rhinoceros"
-          class="img-cover">
-      </figure>
+      </section>
 
-    </section>
+
+
+
+
+      <!-- 
+        - #PARTNER
+      -->
+
+      <section class="section partner">
+        <div class="container">
+
+          <a href="ongs.php" class="partner-logo">
+            <img src="./assets/images/MUNDOSEMFOME.png" width="157" height="55" loading="lazy" alt="Children Fund"
+              class="gray">
+
+            <img src="./assets/images/MUNDOSEMFOME.png" width="157" height="55" loading="lazy" alt="Children Fund"
+              class="color">
+          </a>
+
+          <a href="ongs.php" class="partner-logo">
+            <img src="./assets/images/CRIANCASFELIZES.png" width="163" height="55" loading="lazy" alt="Non Profit Agency"
+              class="gray">
+
+            <img src="./assets/images/CRIANCASFELIZES.png" width="163" height="55" loading="lazy"
+              alt="Non Profit Agency" class="color">
+          </a>
+
+          <a href="ongs.php" class="partner-logo">
+            <img src="./assets/images/AMORECURA.png" width="149" height="55" loading="lazy" alt="Rise Hand Help Us"
+              class="gray">
+
+            <img src="./assets/images/AMORECURA.png" width="149" height="55" loading="lazy"
+              alt="Rise Hand Help Us" class="color">
+          </a>
+
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #EVENT
+      -->
+
+    
 
     <section class="section about text-center" aria-labelledby="about-label" id="about">
       <div class="container">
@@ -424,6 +504,10 @@
 
 
           <h2 class="headline-1 section-title">Nossa Historia</h2>
+    
+
+<p class="section-text">
+  A Naturalle é um restaurante vegano e vegetariano que não apenas oferece alimentos de qualidade e confiáveis, mas também contém um projeto socioambiental chamado 'Sabor Solidário' em parceria com diversas ONGs            </p>
 
           <p class="section-text">
             </p>
@@ -453,6 +537,7 @@
 
       </div>
     </section>
+    
 
 
 
@@ -491,7 +576,7 @@
                   dolore magna suspene
                 </p>
 
-                <a href="#" class="btn-link">
+                <a href="https://www.iberdrola.com/sustentabilidade/desperdicio-de-alimentos#:~:text=Os%20dados%20anteriores%20correspondem%20aos,gases%20respons%C3%A1veis%20pelo%20aquecimento%20global." class="btn-link">
                   <span>Leia mais</span>
 
                   <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
@@ -576,106 +661,16 @@
 
       
 
+      
+
      <!-- 
 - #FOOTER
 -->
 
-<footer class="footer section has-bg-image text-center"
-style="background-image: url('./assets/images/Fotter2.jpeg')">
-<div class="container">
+<?php
+include ('footer.php');
+      ?>
 
-<div class="footer-top grid-list">
-
-<div class="footer-brand has-before has-after">
-
-<a href="#" class="logo">
-  <img src="./assets/images/LogoBrancaNaturalle.png" width="270" height="80" loading="lazy" alt="grilli home">
-</a>
-
-<address class="body-4">
-  Restaurante Naturalle, São Paulo 123
-</address>
-
-<a href="emailto:booking@grilli.com" class="body-4 contact-link">naturalle@gmail.com</a>
-
-<a href="tel:+000000000" class="body-4 contact-link">Telefone: (11)981765432</a>
-
-<p class="body-4">
-  Funcionamento: 11:00 às 23:30 
-</p>
-
-<div class="wrapper">
-  <div class="separator"></div>
-  <div class="separator"></div>
-  <div class="separator"></div>
-</div>
-
-<p class="title-1">Cadastre-se e ganhe</p>
-
-<p class="label-1">
-  Cadastre-se e Ganhe <span class="span">25% Off</span>
-</p>
-
-</div>
-
-<ul class="footer-list">
-
-<li>
-  <a href="#" class="label-2 footer-link hover-underline">Home</a>
-</li>
-
-<li>
-  <a href="#" class="label-2 footer-link hover-underline">Menu</a>
-</li>
-
-<li>
-  <a href="#" class="label-2 footer-link hover-underline">Sobre nós</a>
-</li>
-
-<li>
-  <a href="#" class="label-2 footer-link hover-underline">Nosso Projeto</a>
-</li>
-
-<li>
-  <a href="#" class="label-2 footer-link hover-underline">Delivery</a>
-</li>
-
-</ul>
-
-<ul class="footer-list">
-
-<li>
-  <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
-</li>
-
-<li>
-  <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
-</li>
-
-<li>
-  <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
-</li>
-
-<li>
-  <a href="#" class="label-2 footer-link hover-underline">Google Maps</a>
-</li>
-
-</ul>
-
-</div>
-
-<div class="footer-bottom">
-
-
-
-</div>
-
-</div>
-</footer>
-
-
-      
-      
       
       
       

@@ -167,7 +167,7 @@ include ('header.php');
       <section class="special-dish text-center" aria-labelledby="dish-label">
 
         <div class="special-dish-banner">
-          <img src="./assets/images/Voluntario.jpeg" width="940" height="900" loading="lazy" alt="special dish"
+          <img src="./assets/images/Voluntario.jpg" width="940" height="900" loading="lazy" alt="special dish"
             class="img-cover">
         </div>
 
@@ -307,7 +307,7 @@ include ('header.php');
       -->
 
       <section class="section testi text-center has-bg-image"
-        style="background-image: url('./assets/images/Fotter3.jpeg')" aria-label="testimonials">
+        style="background-image: url('./assets/images/fotter3.jpg')" aria-label="testimonials">
         <div class="container">
 
           <div class="quote">”</div>
@@ -332,11 +332,10 @@ include ('header.php');
       -->
 
       <section class="section features text-center" aria-label="features">
-        <div class="container">
-
-          <p class="section-subtitle label-2">Por que Escolher Nosso Restaurante</p>
-
-          <h2 class="headline-1 section-title">Nossa força</h2>
+    <div class="container">
+        <p class="section-subtitle label-2">Por que Escolher Nosso Restaurante</p>
+       
+        
 
           <ul class="grid-list">
 

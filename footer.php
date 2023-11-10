@@ -1,5 +1,5 @@
 <footer class="footer section has-bg-image text-center"
-style="background-image: url('./assets/images/Fotter2.jpeg')">
+style="background-image: url('./assets/images/Footer2.jpg')">
 <div class="container">
 
 <div class="footer-top grid-list">

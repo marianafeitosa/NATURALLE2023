@@ -29,7 +29,7 @@ include ('header.php');
     - #HEADER
   -->
 
-     
+     <br>
 <div class="container">
 <h3 class="headline-1 text-center" style="margin-bottom: 20px;">
     <span class="span" style="font-weight: bold;">Parabéns! Seu cadastro de ONG foi realizado com sucesso.</span>
@@ -39,9 +39,15 @@ include ('header.php');
     <span class="span">Fique atento ao seu email, pois enviaremos informações importantes sobre eventos, recursos e oportunidades de colaboração.</span>
 </h5>
 
+<h5 class="headline-1 text-center" style="font-size: 30px; margin-bottom: 10px;">
+    <a href="ongs.php" class="span">Clique aqui para acessar sua conta e fazer login.</a>
+</h5>
+
 <h5 class="headline-1 text-center" style="font-size: 18px;">
     <span class="span">Atenciosamente, Equipe Naturalle.</span>
 </h5>
+
+<br>
 
         <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
 

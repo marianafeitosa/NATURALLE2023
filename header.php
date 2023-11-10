@@ -29,6 +29,7 @@
     - LINK CSS
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="script.js"></script>
 
   <!-- 
     - PRÉ IMAGENS ANTES DE CARREGAR
@@ -160,12 +161,13 @@
           </li>
 
           <li class="navbar-item">
-            <a href="delivery.php" class="navbar-link hover-underline">
+            <a href="home.php" class="navbar-link hover-underline">
               <div class="separator"></div>
 
               <span class="span">Delivery</span>
             </a>
           </li>
+          
 
         </ul>
 
@@ -190,9 +192,13 @@
           </a>
         </div>
 
+        
+
       </nav>
 
-      <a href="login.php" class="btn btn-secondary">
+      
+
+      <a  href="login.php" id="login-btn" class="btn btn-secondary">
         <span class="text text-1">Login</span>
 
         <span class="text text-2" aria-hidden="true">Login</span>
@@ -207,4 +213,5 @@
       <div class="overlay" data-nav-toggler data-overlay></div>
 
     </div>
+    
     </header>

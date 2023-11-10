@@ -308,6 +308,7 @@ body.nav-active { overflow: hidden; }
   margin-block-end: 12px;
 }
 
+
 .section-subtitle::after {
   content: url('...');
   display: block;
@@ -318,7 +319,7 @@ body.nav-active { overflow: hidden; }
 
 .btn {
   position: relative;
-  color: var(--gold-crayola);
+  color: var(--white);
   font-size: var(--fontSize-label-2);
   font-weight: var(--weight-bold);
   text-transform: uppercase;
@@ -1209,7 +1210,14 @@ textarea.input-field {
   #FEATURES
 \*-----------------------------------*/
 
-.features .section-title { margin-block-end: 40px; }
+.features .section-title {
+  margin-block-end: 20px; /* Adicione um espaçamento entre os títulos */
+}
+
+.features .section-title + p.section-title {
+  margin-block-start: 20px; /* Adicione um espaçamento acima do segundo título */
+}
+
 
 .feature-card { padding: 30px 20px 40px; }
 
@@ -2126,4 +2134,126 @@ textarea.input-field {
     left: 0;
   }
 
+}
+
+
+
+
+.parceiros{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3.4vw;
+  row-gap: 1vw;
+}
+
+.parceiros-card{
+  display: flex;
+  flex-direction: column;
+  height: clamp(310px, 20vw, 380px);
+  width: clamP(290px, 18vw, 340px);
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  transition: all .3s ease-in-out;
+}
+
+.container2 {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-sizing: border-box; /* Include padding in the width */
+}
+
+.container2 .card {
+  position: relative;
+  padding: 10px;
+  width: 300px;
+  background-color: var(--gold-crayola);
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.5s;
+  text-align: center;
+  box-sizing: border-box; /* Include padding in the width */
+}
+.container2 .card img{
+  transition: 0.5s;
+  margin: 0 auto; /* Adiciona centralização da imagem */
+}
+
+.container2 .card h1{
+  font-size: 2rem;
+}
+
+.container2 .card .content{
+  padding: 20px;
+  text-align: center;
+}
+
+.container2 .card .content p{
+  color: #333533;
+  transition: 0.5s;
+}
+
+.container2 .card .content a{
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5caf63;
+  color: #ffff;
+  border-radius: 40px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.container2 .card:hover{
+  background-color: #468546;
+  color: #fff;
+  margin-top: -30px;
+  box-shadow: 2px 20px 25px #253125;
+  border-color: #468546 ;
+}
+
+.container2 .card:hover img{
+  filter: invert(0);
+}
+
+.container2 .card:hover p{
+  color: white;
+}
+
+.marmitas-doadas {
+  display: flex;
+  align-items: center;
+  background-color: #5caf63;
+  color: #fff;
+  border-radius: 20px;
+  padding: 15px;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.marmitas-doadas .circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--gold-crayola);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.marmitas-doadas p {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.marmitas-doadas p:last-child {
+  margin-left: 15px;
 }
